@@ -1,0 +1,13 @@
+{
+  "name": "eventologist-webhook",
+  "version": "1.0.0",
+  "description": "Stripe webhook to GA4 Measurement Protocol bridge for Eventologist",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^14.25.0"
+  }
+}
