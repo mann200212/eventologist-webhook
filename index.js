@@ -4,8 +4,8 @@ const Stripe = require('stripe');
 const app = express();
 
 // ===== CONFIGURATION (set these in Railway's Variables tab) =====
-const STRIPE_SECRET_KEY = process.env.STRIPE_SECRET_KEY;       // From Stripe Dashboard > Developers > API keys
-const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET; // The whsec_... value from your webhook destination
+const STRIPE_SECRET_KEY = process.env.mk_1TYOwsKBi2AtJCGPYb9vRyH3;       // From Stripe Dashboard > Developers > API keys
+const STRIPE_WEBHOOK_SECRET = process.env.whsec_4deS6E4RqL91T6QVcd7tMQ9yzv10xLpx; // The whsec_... value from your webhook destination
 
 const stripe = Stripe(STRIPE_SECRET_KEY);
 
